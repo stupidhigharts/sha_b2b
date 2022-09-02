@@ -5,6 +5,15 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: src/pages/about/index.md
+  label: About
+  match: "**/*"
+- type: directory
+  path: src/pages/blog
+  label: Blog
+  create: documents
+  match: "**/*"
+- type: document
   path: src/pages/products/index.md
   label: Products
 upload_dir: uploads
