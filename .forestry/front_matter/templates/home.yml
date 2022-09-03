@@ -5,38 +5,40 @@ fields:
 - type: text
   name: templateKey
   label: templateKey
+  hidden: true
+  default: index-page
 - type: text
   name: title
-  label: title
+  label: Title
 - type: file
   name: image
-  label: image
+  label: Image
 - type: text
   name: heading
-  label: heading
+  label: Heading
 - type: text
   name: subheading
-  label: subheading
+  label: Sub Heading
+- type: textarea
+  name: description
+  label: Description
 - type: field_group
   name: mainpitch
-  label: mainpitch
+  label: Main Pitch
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
   - type: textarea
     name: description
-    label: description
-- type: textarea
-  name: description
-  label: description
+    label: Description
 - type: field_group
   name: intro
-  label: intro
+  label: Intro
   fields:
   - type: field_group_list
     name: blurbs
-    label: blurbs
+    label: Blurbs
     fields:
     - type: file
       name: image
@@ -52,14 +54,14 @@ fields:
     label: description
 - type: field_group
   name: main
-  label: main
+  label: Main
   fields:
   - type: text
     name: heading
-    label: heading
+    label: Heading
   - type: textarea
     name: description
-    label: description
+    label: Description
   - type: field_group
     name: image1
     label: image1
