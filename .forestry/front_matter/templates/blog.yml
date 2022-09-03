@@ -5,21 +5,29 @@ fields:
 - type: text
   name: templateKey
   label: templateKey
+  hidden: true
+  default: blog-post
 - type: text
   name: title
-  label: title
-- type: datetime
-  name: date
-  label: date
+  label: Title
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - type: boolean
   name: featuredpost
-  label: featuredpost
+  label: Featured Post
 - type: file
   name: featuredimage
-  label: featuredimage
+  label: Featured Image
 - type: textarea
   name: description
-  label: description
+  label: Description
 - type: list
   name: tags
-  label: tags
+  label: Tags
