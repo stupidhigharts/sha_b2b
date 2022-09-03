@@ -4,10 +4,13 @@ hide_body: false
 fields:
 - type: text
   name: templateKey
-  label: templateKey
+  label: Template Key
+  hidden: true
+  default: about-page
 - type: text
   name: path
-  label: path
+  label: Path
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
